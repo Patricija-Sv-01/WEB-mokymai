@@ -1,0 +1,42 @@
+#first-line {
+    display: flex;
+    background-color: orange;
+    margin: 0;
+}
+
+#second-line {
+    display: flex;
+    justify-content: space-between;
+    background-color: orangered;
+}
+
+#second-line p {
+    background-color: white;
+    margin: 30px;
+}
+
+#third-line {
+    display: flex;
+    background-color: orange;
+    justify-content: center;
+}
+
+#third-line p {
+    background-color: white;
+    padding: 20px;
+    width: 500px;
+    box-sizing: border-box;
+}
+
+#fourth-line {
+    background-color: orangered;
+    display: flex;
+    justify-content: space-around;
+}
+
+#fourth-line p {
+    background-color: orange;
+    width: 200px;
+    box-sizing: border-box;
+    padding: 30px;
+}

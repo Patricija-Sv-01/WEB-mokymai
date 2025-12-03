@@ -1,0 +1,20 @@
+.header {
+
+    background-color:rgb(109, 185, 109)
+}
+
+#pirmas {
+    color:black;
+    background-color:beige;
+}
+
+#antras {
+    color:white;
+    background-color:blueviolet;
+}
+
+.list {
+    color:red;
+    background-color: black;
+}
+

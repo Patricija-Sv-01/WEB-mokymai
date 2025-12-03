@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+}
+
+/* FIRST LINE */
+#first-line {
+    background-image: url("Nuotraukos/top-background.jpg");
+    height: 327px;
+    background-size:cover;
+}
+
+#logo {
+    width: 79px;
+    height: 79px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.top-info {
+    font-family: 'Montserrat';
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 10%;
+    color: white;
+}
+
+#button {
+    width: 195px;
+    height: 55px;
+    background-color: #E12E60;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 15px;
+    border-radius: 8px;
+}
+
+.top-info:hover {
+    font-size: 25px;
+}
+
+#title {
+    width: 856px;
+    height: 122px;
+    font-size: 50px;
+    font-family:'Montserrat';
+    line-height: 100%;
+    font-weight: 700;
+    color: white;
+    margin-left: 20px;
+}
+
+#top-frame {
+    display: flex;
+    justify-content: space-between;
+}
+
+#words-top {
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+}
+
+/* SECOND LINE */
+#second-line {
+    background-color: #EF5D69;
+    width: 100vw;;
+    height: 519px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#text {
+    background-color: #FCDFE1;
+    width: 1321px;
+    height: 362px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+#first-p {
+    width: 540px;
+    height: 220px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 100%;
+    margin-left: 20px;
+}
+
+#second-p {
+    width: 260px;
+    height: 242px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 100%;
+}
+
+#third-p {
+    width: 321px;
+    height: 154px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 100%;
+    margin-right: 20px;
+}
+
+/* THIRD LINE */
+#third-line {
+    background-color: #FCDFE1;
+    width: 100vw;
+    height: 869px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#text-2 {
+    width: 399px;
+    height: 614px;
+    border-radius: 8px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+#text-2 p {
+    font-family: 'Roboto';
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 100%;
+    width: 299px;
+    height: 484px;
+}
+
+#paint-photo {
+    width: 844px;
+    height: 614px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/* FOURTH LINE */
+#fourth-line {
+    background-color: black;
+    width: 100vw;
+    height: 113px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#logo-bottom {
+    width: 79px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.social-icons {
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+    border-radius: 60px;
+    margin-top: 30px;
+}
+
+#fourth-line p {
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 10%;
+    width: 93px;
+}
+
+#socials {
+    display: flex;
+    margin-right: 50px;
+    justify-content:space-between;
+    width: 500px;
+}
+
+#tevinis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+/* BOTTOM */
+#BOTTOM {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+}
+
+

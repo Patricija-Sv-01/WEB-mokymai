@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* FIRST LINE */
+#first-line {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+#name {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+#first-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-links {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+/* SECOND LINE */
+#name2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    border: 2px solid black;
+    padding: 10px 20px;
+    color: black;
+    background-color: rgb(139, 202, 139);
+    box-sizing: border-box;
+    width: 100px;
+    height: 50px;
+}
+
+input:hover{
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+}
+
+#second-line {
+    height: 600px;
+    background-color: rgb(139, 202, 139);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* THIRD LINE */
+#third-line {
+    background-color: rgb(108, 240, 227);
+    display: flex;
+}
+
+#third-line p {
+    box-sizing: border-box;
+    padding: 5px 20px 5px;
+}
+
+/* FATHER OF FOURTH LINE */
+#father-fourth-line {
+    background-color: peachpuff;
+    display: flex;
+    justify-content: center;
+}
+
+/* FOURTH LINE */
+#fourth-line {
+    background-color: peachpuff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    max-width: 1200px;
+    max-height: 1000x;
+}
+
+.article-number {
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.main-links {
+    color: rgb(97, 97, 240);
+}
+
+.articles {
+    background-color: rgb(250, 237, 225);
+
+    height: 200px;
+    width: 300px;
+    padding: 10px 4px 5px;
+    margin: 30px;    
+}
+
+.articles p {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 3px;
+}
+
+.MAIN {
+    margin-top: 0;
+}
+
+/* FITH LINE */
+#fith-line {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+#fith-line p {
+    color: white;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-right: 40px;
+}
+
+#fith-line li {
+    color:white;
+}
+
+.bottom-links {
+    color: turquoise;
+    text-decoration: none;
+}
+
+.informacija {
+    font-weight: bold;
+}
+
+#info-bottom {
+    width: 300px;
+    height: 200px;
+}
+
+#father-lists {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin-top: 15px;
+}
+
+
+
+
+

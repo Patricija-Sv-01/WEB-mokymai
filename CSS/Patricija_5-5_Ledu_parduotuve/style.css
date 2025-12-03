@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+}
+
+/* FIRST LINE */
+#first-line {
+    background-color: black;
+    height: 88px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#logo {
+
+    width: 32px;
+    height: 32px;
+}
+
+#first-line p {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 19px;
+}
+
+#first-line p:hover {
+    color:pink;
+    transition: 0.3s;
+}
+
+/* SECOND-LINE */
+#background {
+    background-image: url("nuotraukos/background.png");
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-info {
+    background-color: black;
+    width: 1120px;
+    height: 728px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+#products {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 64px;
+    letter-spacing: 8%;
+    width: 340px;
+    height: 78px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#sentence {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 3%;
+    width: 321px;
+    height: 24px;
+    margin-top: 0;
+    margin-bottom: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.ice-cream {
+    width: 127px;
+    height: 127px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
+.name {
+    text-transform: uppercase;
+    font-family:'Montserrat';
+    font-weight: 800;
+    letter-spacing: 4%;
+    font-size: 24px;
+    margin: 0;
+    color: white;
+}
+
+.mini-line {
+    width: 100px;
+    border: 2px solid white;
+    margin: 0;
+}
+
+.info {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 3%;
+    width: 227px;
+    height: 75px;
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+
+.button {
+    color: #9661E8;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 19px;
+    letter-spacing: 8%;
+    background: none;
+    padding: 5px;
+    margin: 0;
+    height: 50px;
+    width: 150px;
+    border: none;
+}
+
+.button:hover {
+    border: 2px solid #9661E8;
+    transition: 0.3s;
+}
+
+.cards {
+
+    width: 293px;
+    height: 440px;
+    object-fit: cover;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#CARDS {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* THIRD LINE */
+#third-line {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+#third-line p {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    letter-spacing: 10%;
+    font-size: 12px;
+}
+

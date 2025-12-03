@@ -1,0 +1,95 @@
+body {
+
+    background-color:rgb(196, 194, 194);
+}
+
+
+img {
+
+    width: 329px;
+    height:214px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    object-fit:cover;
+    margin-bottom: 0;
+}
+
+.info {
+
+    background-color:white;
+    width: 329px;
+    height: 263px;
+    box-sizing: border-box;
+    margin-top:0;
+    padding: 48px 32px 36px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin-bottom: 20px;
+}
+
+h1 {
+
+    font-family:'Poppins';
+    font-weight: 700;
+    font-style: bold;
+    font-size: 24px;
+    width: 120px;
+    height: 36px;
+    margin-top:0;
+}
+.tekstas {
+
+    font-family: 'Nokora';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    width: 265px;
+    height: 80px;
+    margin-bottom: 0px;
+}
+
+a {
+
+    font-family: 'Nokora';
+    text-decoration: none;
+    color: #0E385C;
+    font-size: 12px;
+    width: 127px;
+    height: 31px;
+    border: 2px solid #0E385C;
+    padding: 8px 16px 8px;
+}
+
+.mlink {
+
+    margin-top: 0px;
+}
+
+a:hover {
+
+    background-color: #0E385C;
+    color: white;
+}
+
+.card {
+
+    background-color: white;
+    width: 329px;
+    border-radius: 45px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card:hover {
+    box-shadow: 0 0 25px rgb(79, 220, 245);
+}
+
+#card1 {
+
+    margin-top:121px;
+}
+
+
+
+
+

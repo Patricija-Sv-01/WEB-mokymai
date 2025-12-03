@@ -1,0 +1,25 @@
+# Ignore common image files
+# Add exceptions with a leading ! if you want to track a specific file (example below)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.svg
+*.webp
+*.ico
+*.tif
+*.tiff
+*.heic
+*.heif
+*.psd
+
+# Ignore common image directories (root and any subdirectory named images or img)
+images/
+img/
+**/images/
+**/img/
+
+# Example: track a specific image even though images are ignored
+# !/path/to/keep-me.png
+

@@ -1,0 +1,184 @@
+body {
+    background-image:url("nuotraukos/background.jpg");
+    background-size: cover;
+    margin: 0;
+}
+
+#opacity {
+
+    background-color: #ffffff5b;
+    width: 100%;
+    height: 100vh;
+}
+
+#img1 {
+
+    width: 602px;
+    height: 430px;
+    object-fit: cover;
+    border-top-left-radius: 95px;
+    border-top-right-radius: 51px;
+    border-bottom-right-radius: 179px;
+    border-bottom-left-radius: 60px;
+    margin-left: 135px;
+    margin-top: 90px;
+}
+
+#img2 {
+
+    width: 645px;
+    height: 432px;
+    object-fit: cover;
+    border-top-right-radius: 69px;
+    border-bottom-left-radius: 199px;
+    margin-left: 135px;
+}
+
+#science {
+
+    font-family:'Inter';
+    font-weight: 700;
+    font-style: bold;
+    text-transform: uppercase;
+    font-size:14px;
+    margin-left: 135px;
+}
+
+#explainer {
+
+    font-family:'Inter';
+    font-weight: 400;
+    font-style: bold;
+    text-transform: uppercase;
+    font-size:14px;
+}
+
+.line1 {
+
+    height: 1px;
+    background-color: black;
+    border: none;
+    margin-left: 135px;
+    width: 1211px;
+}
+
+#p1 {
+
+    font-family:'Inter';
+    font-weight: 700;
+    font-style: bold;
+    font-size: 40px;
+    line-height: 100%;
+    max-width: 764px;
+    max-height: 96px;
+    margin-left: 135px;
+}
+
+#p2 {
+
+    font-family: 'Inter';
+    font-weight: 400;
+    font-style: Italic;
+    font-size: 20px;
+    line-height: 100%;
+    width: 834px;
+    height: 80px;
+    background-color: #FFFFFF73;
+    box-sizing: border-box;
+    padding: 16px 32px 16px;
+    border-radius: 17px;
+    margin-left: 135px;
+}
+
+#name {
+
+    font-family:'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    color: #0F4380;
+    margin-left: 135px;
+}
+
+#p3, #p4 {
+
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: white;
+    width: 475.89px;
+    height: 121.19px;
+    margin-left: 80px
+}
+    
+
+#twop {
+    width: 723px;
+    height: 378.38px;
+    background-color: #540F80;
+    box-sizing: border-box;
+    padding: 60px 40px 60px;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-left: 135px;
+}
+
+#line2 {
+    border: 7px solid #540F80;
+    margin-left: 135px;
+    width: 1211px;
+}
+
+#p5  {
+    font-family:'Inter';
+    font-weight: 700;
+    font-style: bold;
+    font-size: 24px;
+    text-decoration: underline;
+    width: 721px;
+    color: #01FCB6;
+    margin-left: 135px;
+}
+
+#p6 {
+    width: 712px;
+    height: 38px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 135px;
+}
+
+#p7 {
+    width: 712px;
+    height: 57px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 135px;
+}
+
+#p8 {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: underline;
+    background-color: #01FCB6;
+    width: 495px;
+    margin-left: 135px;
+}
+
+#span2 {
+    text-decoration: underline;
+    background-color: #01FCB6;
+}
+
+#p9 {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    width: 721px;
+    height: 95px;
+    margin-left: 135px;
+}
+

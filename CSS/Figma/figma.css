@@ -1,0 +1,38 @@
+body {
+    background-image: url("figma.jpg");
+    background-size: 1440px 815px;
+    
+}
+
+#pirmas {
+    font-size: 72px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Gloria Hallelujah';
+    line-height: 110.0000000000000000001%;
+    text-align: left;
+    margin-bottom:0;
+    margin-top: 30px;
+}
+
+#antras {
+    font-size: 20px;
+    font-style: normal;
+    font-family: 'Inter';
+    font-weight: 400;
+    line-height: 100%;
+    text-align: left;
+    margin-top:0;
+}
+
+
+#textbox {
+
+    background-color:white;
+    opacity:0.5;
+    width:651px;
+    height: 348px;
+    position:fixed;
+    top:36px;
+    left:32px;
+}

@@ -1,0 +1,25 @@
+h1 {
+    color: white;
+    background-color:black;
+}
+
+.div, .header {
+
+    color:white;
+    background-color:rgb(126, 126, 233);
+}
+
+#paslaugos {
+
+    background-color:white;
+}
+
+#apiemus {
+
+    background-color:white;
+}
+
+a {
+    color:red;
+}
+

@@ -1,0 +1,30 @@
+.header {
+
+    background-color:rgba(0, 0, 0, 0.295);
+    color:white;
+}
+
+#pirmas {
+
+    background-image: url("snowy\ mountains.jpg");
+    background-size:cover;
+}
+
+#antras {
+
+    background-image: url("snowy\ mountains\ \(1\).jpg");
+    background-size: cover;
+}
+
+#trecias {
+
+    background-image: url("snowy\ mountains\ \(2\).jpg");
+    background-size:cover;
+}
+
+.info {
+    background-color:rgba(252, 252, 252, 0.301);
+}
+
+
+

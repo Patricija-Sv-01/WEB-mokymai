@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+}
+
+#first-line {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(238, 238, 199);
+}
+
+#projektas {
+
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 20px; 
+}
+
+
+#links {
+    /*display: flex;*/
+    /*display: inline-block;*/
+    display: flex;
+    justify-content: space-between;
+    min-width: 400px;
+    align-items: center;
+    margin-right: 20px;
+}
+
+#second-line {
+    display: flex;
+    background-color: rgb(124, 58, 187);
+    justify-content: center;
+}
+
+#second-line p {
+    max-width: 500px;
+    color: white;
+    text-align: center;
+}
+
+#allarticles {
+    min-height: 600px;
+    background-color: rgb(187, 185, 185);
+    display: flex;
+    justify-content: center;
+}
+
+#third-line {
+
+    background-color: rgb(187, 185, 185);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    max-width: 900px;
+    max-height: 600px;
+}
+
+.articles {
+
+    background-color: white;
+    width: 260px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border: 2px solid grey;
+    margin: 10px;
+}
+
+.news {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#fourth-line {
+    background-color: rgb(124, 58, 187);
+    display: flex;
+    justify-content: space-around;
+}
+
+#fourth-line p {
+    color: white;
+}
+
+#fith-line {
+    background-color:rgb(240, 240, 135);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px 0;
+}
+
+
+

@@ -1,0 +1,37 @@
+h1 {
+    background-color:white;
+}
+
+.header {
+
+    background-color:grey;
+}
+
+#galerija {
+
+    background-color:white;
+}
+
+#naujienos {
+
+    background-color:white;
+}
+
+.naujiena {
+
+    color:red;
+}
+
+p {
+    color:blue;
+}
+
+a {
+    color: white;
+    background-color: red;
+}
+
+.para {
+
+    background-color:beige
+}
