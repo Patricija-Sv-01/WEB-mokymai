@@ -96,6 +96,8 @@ for(let i = 2; i <= wanted; i++){
 
 console.log();
 
+// keitimas
+
 
 
 
