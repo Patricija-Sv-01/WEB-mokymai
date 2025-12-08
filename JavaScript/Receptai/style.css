@@ -6,11 +6,17 @@ body {
     margin: 0;
 }
 
-#checkmark {
+.checkmark {
     width: 25px;
     height: 25px;
     object-fit: cover;
     position: absolute;
+    left: 120px;
+    top: -10px;
+}
+
+img.checkmark:not(.show){
+    display: none;
 }
 
 /* =============CONTAINER 1============ */
@@ -39,6 +45,7 @@ body {
     width: 133px;
     height: 205px;
     box-shadow: 0 0 5px grey;
+    position: relative;
 }
 
 .card:hover {
@@ -85,21 +92,25 @@ img {
     padding: 20px;
 }
 
-hr {
-    width: 216px;
+#slider {
+    -webkit-appearance: none;
     margin-left: 20px;
-    margin-top: 20px;
+    width: 200px;
+    height: 5px;
+    background: black;
+    border-radius: 5px;
 }
 
-#circle {
-    background-color: black;
-    width: 7px;
-    height: 7px;
-    border-radius: 50px;
-    position: absolute;
-    top: 535px;
-    left: 50px;
+#slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 18px;
+    height: 18px;
+    background: black;
+    border-radius: 50%;
+    cursor: pointer;
 }
+
+
 /* ==================================== */
 
 /* =============CONTAINER 3============ */
