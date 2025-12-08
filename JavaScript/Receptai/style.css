@@ -1,0 +1,123 @@
+body {
+    background-color: #EFEFEF;
+}
+
+* {
+    margin: 0;
+}
+
+#checkmark {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    position: absolute;
+}
+
+/* =============CONTAINER 1============ */
+
+.container-1{
+    background-color: #fff;
+    width: 600px;
+    height: 305px;
+    margin: 133px auto 20px;
+    box-shadow: 2px 2px grey;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.title p {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    padding: 20px
+}
+
+.card {
+    background-color: white;
+    width: 133px;
+    height: 205px;
+    box-shadow: 0 0 5px grey;
+}
+
+.card:hover {
+    box-shadow: 0 0 5px rgb(165, 255, 129);
+}
+
+img {
+    width: 133px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.food {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 12px;
+    margin: 10px;
+}
+
+.text {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 100%;
+    width: 116px;
+    height: 77px;
+    margin: 10px
+}
+/* ==================================== */
+
+/* =============CONTAINER 2============ */
+.container-2 {
+    background-color: #fff;
+    width: 600px;
+    height: 112px;
+    margin: 0 auto 20px;
+    box-shadow: 2px 2px grey;
+}
+
+.container-2 p {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    padding: 20px;
+}
+
+hr {
+    width: 216px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#circle {
+    background-color: black;
+    width: 7px;
+    height: 7px;
+    border-radius: 50px;
+    position: absolute;
+    top: 535px;
+    left: 50px;
+}
+/* ==================================== */
+
+/* =============CONTAINER 3============ */
+
+.container-3 {
+    background-color: #fff;
+    width: 600px;
+    height: 159px;
+    margin: 0 auto 0;
+    box-shadow: 2px 2px grey;
+}
+
+#results-1 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    padding: 20px;
+
+}
+
+/* ==================================== */
