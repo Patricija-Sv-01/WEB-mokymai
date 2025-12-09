@@ -95,8 +95,9 @@ console.log();
 
 // 8. Išveskite atsitiktinį kiekį atsitiktinių skaičių. Raskite šių skaičių sumą.
 console.log('---------8---------');
-let startNr2 = Math.floor(Math.random() * 40);
+let startNr2 = Math.floor(Math.random() * 20);
 let endNr2 = Math.floor(Math.random() * 100);
+console.log(startNr2, endNr2);
 let suma2 = 0;
 
 while (startNr2 < endNr2) {
@@ -110,34 +111,65 @@ console.log();
 console.log('---------9---------');
 let preke1 = 20, preke2 = 50, preke3 = 100;
 
-
-while(preke1 > 0 || preke2 > 0 || preke3 > 0){
+while (preke1 > 0 || preke2 > 0 || preke3 > 0) {
 
     let bought1 = Math.floor(Math.random() * 10);
     let bought2 = Math.floor(Math.random() * 10);
     let bought3 = Math.floor(Math.random() * 10);
-    
+
     // console.log(bought1, bought2, bought3);
-    
-    if(bought1 <= preke1){
-        preke1 -= bought1;
-        console.log(preke1);
+
+    if (bought1 > preke1) {
+        bought1 = preke1;
     }
 
-    if(bought2 <= preke2){
-        preke2 -= bought2;
-        console.log(preke2);
+    if (bought2 > preke2) {
+        bought2 = preke2;
     }
 
-    if(bought3 <= preke3){
-        preke3 -= bought3;
-        console.log(preke3);
+    if (bought3 > preke3) {
+        bought3 = preke3;
     }
+
+    preke1 -= bought1;
+    console.log(preke1);
+
+    preke2 -= bought2;
+    console.log(preke2);
+
+    preke3 -= bought3;
+    console.log(preke3);
 
     console.log();
 }
-console.log();
-// 10. (sudėtingesnė) Išvedinėkite visus skaičius nuo 1 iki kol rasite tokį, kuris yra pirminis.
+console.log('Viskas išparduota.');
 
+console.log();
+
+// 10. (sudėtingesnė) Išvedinėkite visus skaičius nuo 1 iki kol rasite tokį, kuris yra pirminis.
+console.log('---------10---------');
+let p = 1;
+
+while (p > 0){
+
+    if(p < 2){
+        console.log(p);
+    } else {
+        let q = 0;
+        for(let i = 2; i < p; i++){
+            if(p % i == 0){
+                q++;
+            }
+        }
+
+        if(q == 0){
+            console.log(`Pirmas rastas pirminis skaicius: ${p}`);
+            break;
+        }
+        else {console.log(p);}
+    }
+    p++;
+}
+console.log();
 
 
