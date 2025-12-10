@@ -18,3 +18,10 @@ for (let i = 0; i < cards.length; i++) {
 
 // --------------- CHOOSING A NUMBER ---------------
 
+let slider = document.getElementById('slider');
+let portionNr = document.getElementById('selected-portions');
+
+slider.addEventListener('input', () =>{
+    let portions = slider.valueAsNumber;
+    portionNr.innerHTML = portions;
+});
