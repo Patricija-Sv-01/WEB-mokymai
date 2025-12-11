@@ -119,17 +119,135 @@ console.log();
 // 13. Susikurkite skaičių masyvą. Patikrinkite ar visi šiame masyve esantys skaičiai yra teigiami ir ar yra bent vienas skaičius, kuris būtų lyginis. Pvz, masyvas [3, 7, 2, 9, 6, 4], grąžina true, o masyvas [4, -2, 3, 7] grąžina false.
 console.log('-----------13-----------');
 
-let masyvas13 = [3, 7, 2, 9, 6, 4];
+let masyvas13 = [3, 7, -2, 9, 6, 4];
 
-let nr9 = masyvas13
-    .every(number => number > 0)
-    .some(number => number % 2 == 0);
+let teig = masyvas13.every(number => number > 0);
+let lyg = masyvas13.some(number => number > 0);
 
-console.log(nr9);
+let answer = teig && lyg;
+console.log(answer);
 
 console.log();
+
 // 14. Susikurkite skaičių masyvą, kuriame būtų teigiamų ir neigiamų skaičių. Išfiltruokite skaičius, kurie yra teigiami. Pvz, jeigu masyvas yra [4, -3, -2, 8, 9, 5], tai išfiltruotas variantas yra [4, 8, 9, 5].
+console.log('-----------14-----------');
+
+let masyvas14 = [4, -3, -2, 8, 9, 5];
+
+let nr14 = masyvas14.filter(number => number > 0);
+console.log(nr14);
+
+console.log();
+
 // 15. Susikurkite skaičių masyvą, kuriame būtų saugomi prekės reitingai (skaičiai nuo 1 iki 5). Išfiltruokite tuos įrašus, kur balų yra 1 arba 2. Pvz, jeigu masyvas [5, 1, 4, 5, 1, 3, 4, 5, 2], tai išfiltravus gausis [1, 1, 2].
+console.log('-----------15-----------');
+
+let masyvas15 = [5, 1, 4, 5, 1, 3, 4, 5, 2];
+
+let nr15 = masyvas15.filter(number => number == 1 || number == 2);
+console.log(nr15);
+
+console.log();
+
+// 16. Susikurkite skaičių masyvą, kuriame būtų ir teigiamų ir neigiamų skaičių. Išfiltruokite tik tuos skaičius, kurie yra teigiami ir yra lyginiai. Pvz, jeigu turite masyvą [5, -3, 2, 7, 8, -4, 1] tai turi gautis [2, 8].
+console.log('-----------16-----------');
+
+let masyvas16 = [5, -3, 2, 7, 8, -4, 1];
+
+let nr16 = masyvas16.filter(number => number > 0 && number % 2 == 0);
+console.log(nr16);
+
+console.log();
+
+// 17. Susikurkite šalių pavadinimų masyvą. Išfiltruokite tik tas šalis, kurių pavadinime yra raidė b (nesvarbu didžioji ar mažoji raidė). Pvz, jeigu turite masyvą [‘Belgija’, ‘Lietuva’, ‘Graikija’, ‘Bulgarija’], tai turi gautis [‘Belgija’, ‘Bulgarija’].
+console.log('-----------17-----------');
+
+let masyvas17 = ['Belgija', 'Lietuva', 'Graikijab', 'Bulgarija'];
+
+let nr17 = masyvas17.filter(country => country.includes('b') || country.includes('B'));
+
+console.log(nr17);
+
+console.log();
+
+// 18. Susikurkite skaičių masyvą. Išfiltruokite lyginius skaičius ir juos padvigubinkite. Pvz, jeigu masyvas yra [3, 7, 2, 9, 6, 4], išfiltravus gausis [2, 6, 4], o padvigubinus galutinis variantas bus [4, 12, 8].
+console.log('-----------18-----------');
+
+let masyvas18 = [3, 7, 2, 9, 6, 4];
+
+let nr18 = masyvas18
+    .filter(number => number % 2 == 0)
+    .map(number => number * 2);
+
+console.log(nr18);
+
+console.log();
+
+// 19. Susikurkite skaičių masyvą. Kiekvieną skaičių jame padidinkite per 1. Pvz, jeigu masyvas yra [7, 8, 9, 2, 3], tai turi gautis [8, 9, 10, 3, 4].
+console.log('-----------19-----------');
+
+let masyvas19 = [7, 8, 9, 2, 3];
+
+let nr19 = masyvas19.map(number => number + 1);
+console.log(nr19);
+ 
+console.log();
+
+// 20. Susikurkite žodžių masyvą. Kiekvieną žodį iš šio masyvo paverskite į variantą iš didžiųjų raidžių. Pvz, jeigu turite masyvą [‘bananas’, ‘baba’, ‘klėtis’], tai turi gautis [‘BANANAS’, ‘BABA’, ‘KLĖTIS’].
+console.log('-----------20-----------');
+
+let masyvas20 = ['bananas', 'baba', 'klėtis'];
+
+let uppercase = masyvas20.map(word => word.toUpperCase());
+console.log(uppercase);
+
+console.log();
+
+// 21. Susikurkite skaičių masyvą. Gaukite visų skaičių sumą. Pvz, jeigu masyvas yra [2, 3, 1], tai atsakymas 6.
+console.log('-----------21-----------');
+
+let masyvas21 = [2, 3, 1];
+
+let suma1 = masyvas21.reduce((rezas, number) => rezas + number);
+console.log(suma1);
+
+console.log();
+
+// 22. Susikurkite skaičių masyvą. Atrinkite tik tuos skaičius, kurie yra lyginiai ir gaukite jų sumą. Pvz, jeigu masyvas yra [1, 2, 3, 4, 5], atrinkus gausis [2, 4], o šių skaičių suma ir galutinis atsakymas yra 6.
+console.log('-----------22-----------');
+
+let masyvas22 = [1, 4, 3, 4, 5];
+
+let nr22 = masyvas22
+    .filter(number => number % 2 == 0)
+    .reduce((rezas, number) => rezas + number);
+
+console.log(nr22);
+
+console.log();
+
+// 23. Susikurkite žodžių masyvą. Pasiimkite kiekvieno žodžio pirmą raidę, ją padarykite iš didžiosios raidės. Pvz, jeigu turite masyvą [‘šuo’, ‘katė’, ‘gyvatė’], tai turi gautis [‘Š’, ‘K’, ‘G’].
+console.log('-----------23-----------');
+
+let masyvas23 = ['labas', 'ate', 'patricija', 'suo', 'kate'];
+
+let nr23 = masyvas23.map(word => word[0].toUpperCase());
+console.log(nr23);
+
+console.log();
+
+// 24. Susikurkite žodžių masyvą. Raskite kiek šiame masyve yra žodžių, kurie susideda iš 5 ar daugiau raidžių. Pvz, jeigu masyvas yra [‘bananas’, ‘persikas’, ‘abc’, ‘de’], tai atrinkus žodžius gausis [‘bananas’, ‘persikas’], o tokių žodžių yra ir galutinis atsakymas skaitosi 2.
+console.log('-----------24-----------');
+
+let masyvas24 = ['bananas', 'persikas', 'abc', 'de'];
+
+let nr24 = masyvas24.filter(word => word.length >= 5);
+console.log(nr24.length);
+
+console.log();
+
+
+
 
 
 
