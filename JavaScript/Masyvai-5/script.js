@@ -23,14 +23,14 @@ console.log('-----------3-----------');
 
 let masyvas3 = [8, -2, 3, 4];
 
-let negativeNr = masyvas3.findIndex(number => number < 0 );
+let negativeNr = masyvas3.findIndex(number => number < 0);
 console.log(negativeNr);
 
 console.log();
 // 4. Susikurkite skaičių masyvą. Suraskite jame pirmą skaičių, kuris yra lygus arba didesnis 10 ir išveskite jo indeksą, o jeigu tokio skaičiaus nėra išveskite -1. Pvz, jeigu turite masyvą [8, 12, 5, 3, 15, 9], atsakymas bus 1.
 console.log('-----------4-----------');
 
-let masyvas4 =[1, 2, 5, 88, 10, 10, 11];
+let masyvas4 = [1, 2, 5, 88, 10, 10, 11];
 
 let ten = masyvas4.findIndex(number => number >= 10);
 console.log(ten);
@@ -190,7 +190,7 @@ let masyvas19 = [7, 8, 9, 2, 3];
 
 let nr19 = masyvas19.map(number => number + 1);
 console.log(nr19);
- 
+
 console.log();
 
 // 20. Susikurkite žodžių masyvą. Kiekvieną žodį iš šio masyvo paverskite į variantą iš didžiųjų raidžių. Pvz, jeigu turite masyvą [‘bananas’, ‘baba’, ‘klėtis’], tai turi gautis [‘BANANAS’, ‘BABA’, ‘KLĖTIS’].
@@ -245,6 +245,94 @@ let nr24 = masyvas24.filter(word => word.length >= 5);
 console.log(nr24.length);
 
 console.log();
+
+// 25. Susikurkite žodžių masyvą. Raskite kiekvieno žodžio simbolių kiekį. Pvz, jeigu masyvas yra [‘obelis’, ‘liepa’, ‘eglė’, ‘uosis’], tai turi gautis [6, 5, 4, 5].
+console.log('-----------25-----------');
+
+let masyvas25 = ['obelis', 'liepa', 'eglė', 'uosis'];
+
+let nr25 = masyvas25.map(word => word.length);
+console.log(nr25);
+
+console.log();
+
+// 26. Susikurkite masyvą, kur string pavidalu kiekviename elemente būtų sudėti vardai ir amžiai. Ištraukite iš tokio masyvo tik vardus. Pvz, jeigu masyvas yra [‘Tomas 34’, ‘Jonas 20’, ‘Gintarė 40’, ‘Inga 24’], tai turi gautis [‘Tomas’, ‘Jonas’, ‘Gintarė’, ‘Inga’].
+console.log('-----------26-----------');
+
+let masyvas26 = ['Tomas 34', 'Jonas 20', 'Gintarė 40', 'Inga 24'];
+
+let array = masyvas26
+    .join(' ')
+    .split(' ')
+    .map(number => number >= 0 ? Number(number) : number)
+    .filter(number => typeof number == 'string');
+
+console.log(array);
+
+console.log();
+
+// 27. Susikurkite masyvą, kur string pavidalu kiekviename elemente būtų sudėti vardai ir amžiai. Ištraukite iš tokio masyvo tik amžius, juos paverskite į skaičius ir raskite bendrą sumą. Pvz, jeigu masyvas yra [‘Tomas 34’, ‘Jonas 20’, ‘Gintarė 40’, ‘Inga 24’], tai išrinkus info gausis [34, 20, 40, 24] ir suradus sumą turėsime 118.
+console.log('-----------27-----------');
+
+let masyvas27 = ['Tomas 34', 'Jonas 20', 'Gintarė 40', 'Inga 24'];
+
+let array2 = masyvas27
+    .join(' ')
+    .split(' ')
+    .map(number => number >= 0 ? Number(number) : number)
+    .filter(number => typeof number == 'number');
+
+console.log(array2);
+
+let suma2 = array2.reduce((rez, number) => rez + number);
+
+console.log('Suma: ', suma2);
+
+console.log();
+
+// 28. Susikurkite masyvą prekių likučiams saugoti (tik likučių skaičiai). Išrinkite visus likučius, kurių liko mažai (mažiau nei 5 vnt.), ties kiekvienu likučiu paskaičiuokite kiek trūksta iki ribos. Pvz, jeigu turite masyvą [74, 2, 54, 3, 1, 87], išfiltravus liks [2, 3, 1], o paskaičiavus kiek kiekvieno trūksta iki 5, gausis [3, 2, 4].
+console.log('-----------28-----------');
+
+let masyvas28 = [74, 2, 54, 3, 1, 87];
+
+let filter2 = masyvas28.filter(number => number < 5);
+
+let array3 = filter2.map(number => 5 - number);
+
+console.log(array3);
+
+console.log();
+
+// 29. Susikurkite masyvą studento pažymiams saugoti. Suraskite kiek studentas turi gerų pažymių (8 ar daugiau). Pvz, jeigu masyvas yra [7, 8, 10, 6, 5, 9], išfiltravus gausis [8, 10, 9], o tokių pažymių jis turi 3.
+console.log('-----------29-----------');
+
+let masyvas29 = [7, 8, 10, 6, 5, 9];
+
+let array4 = masyvas29.filter(number => number >= 8);
+
+console.log(array4.length);
+
+console.log();
+
+// 30. Susikurkite žodžių masyvą. Suraskite kiek iš viso šiame masyve per visus žodžius yra raidžių a (nesvarbu didžioji ar mažoji raidė). Pvz, jeigu masyvas yra [‘bananas’, ‘obelis’, ‘automobilis’], gausis kad yra 4 raidės.
+console.log('-----------30-----------');
+
+let masyvas30 = ['bananas', 'obelis', 'automobilis'];
+
+let suma3 = 0;
+
+for (let zodis of masyvas30) {
+    for (raide of zodis) {
+        if (raide == 'a' || raide == 'A') {
+            suma3++;
+        }
+    }
+}
+console.log(suma3);
+
+console.log();
+
+
 
 
 
